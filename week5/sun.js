@@ -66,4 +66,94 @@ var parsedStr = url.parse(req.url, true).query
 
 var server = http.createServer(handleRequest);
 server.listen(8000);
+----------------
+////////////MONGO
+
+function find(array, element) {
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] === element) return element;
+  }
+  return null;
+}
+
+console.log(find([1,2,3,4], 3)); // 3
+console.log(find([1,2,3],0)); // null
+
+function sumBy(array){
+  [{ totalPrice:
+      department:
+  }]
+}
+
+function sumBy(array) {
+  var output = {}, currentVal;
+
+  for (var i = 0; i < array.length; i++) {
+    currentVal = output[array[i].department] || 0;
+    output[array[i].department] = currentVal + array[i].totalPrice;
+  }
+
+  return output;
+}
+
+var data = [
+  {department: 'Food', totalPrice: 10},
+  {department: 'Food', totalPrice: 14},
+  {department: 'Not Food', totalPrice: 2},
+  {department: 'Not Food', totalPrice: 682}
+];
+
+console.log(sumBy(data)); // { Food: 24, 'Not Food' : 684 }
+
+-----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
