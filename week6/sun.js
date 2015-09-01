@@ -1,3 +1,6 @@
+
+//mailmerger references
+
 ////lib/data.js
 module.exports = function (recipients, subject, body) {
 +  var first,
