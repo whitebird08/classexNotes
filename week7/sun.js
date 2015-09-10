@@ -2,6 +2,7 @@ what the flexbox.
 http://flexbox.io/#/
 https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+http://www.sketchingwithcss.com/samplechapter/cheatsheet.html
 
 display:flex;
 border:10px solid goldenrod;
@@ -30,3 +31,4 @@ npm install gulp-autoprefixer --save-dev  ///use autoprefixer to comply with old
 
 input [type='search']
 app-wrap > * {}  //flex item star selector
+

@@ -111,11 +111,53 @@ var linkedList = new LinkedList(head);
 head.next = second;
 second.next = third;
 
-
 // Problems with LinkedList:
 
 // 1. Reverse a LinkedList
 // 2. Insert at kth index, linkedList.insertAtIndex(node, index);
 // 3. [Challenge] Re-implement LinkedList so that it has encapsulation, setHead method.
 // 4. [Challenge] Re-implement Node so that it has encapsulation, setNext, removeNext method.
+
+
+// reverse a linked list  
+var reverseLinkedList = function(linkedlist) {
+  var node = linkedlist;
+  var previous = null;
+
+  while(node) {
+    // save next or you lose it!!!
+    var save = node.next;
+    // reverse pointer
+    node.next = previous;
+    // increment previous to current node
+    previous = node;
+    // increment node to next node or null at end of list
+    node = save;
+  }
+  return previous;   // Change the list head !!!
+}
+linkedlist = reverseLinkedList(linkedlist);
+
+
+var reverseLinkedList = function(linkedlist){
+  var node = linkedlist;
+  var previous = null;
+  while(node){
+    var save = node.next;
+    node.previous;
+    previous = node;
+    node = save;
+  }
+  return previous;
+}
+linkedlist = reverseLinkedList(linkedlist);
+
+/////
+// Insert at kth index, linkedList.insertAtIndex(node, index);
+
+var insertAtIndex = function insertAtIndex(node, index){
+}
+
+
+
 
