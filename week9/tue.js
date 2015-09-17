@@ -10,7 +10,7 @@ function translate(string){
   for(var i=0; i < newArray.length; i++){
     for(var j=0; j < vowels.length; j++){
       if([i] !== [j] && [i] !== ' '){
-        output.splice(([i]+1),0,('o' + [i]));
+        output.splice(([i]+1),0,([i] + 'o' + [i]));
       } else {
         output.push([i]);
       }
@@ -59,3 +59,5 @@ console.log(translate('In order to understand recursion, one must first understa
 }
 
 nonSenseRec('this is fun’)```​
+
+
