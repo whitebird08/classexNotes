@@ -143,3 +143,31 @@ $.ajax({
   url: "test.js",
   dataType: "script"
 });
+
+////////
+// express CRUD
+//index--new--create--show--edit--update--delete
+
+//make a link
+a(href="/students/new") add a new student
+
+//make a new.jade file
+
+
+var express = require('express');
+var router = express.Router();
+
+// GET /students ('index') is already there
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+//build a GET route ('new')
+router.get('/students/new', function(req, res, next){
+  res.render('new');
+})
+
+// build POST /students ('create')
+
+
+
