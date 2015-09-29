@@ -164,10 +164,19 @@ router.get('/', function(req, res, next) {
 
 //build a GET route ('new')
 router.get('/students/new', function(req, res, next){
-  res.render('new');
+  res.render('new'); //{objects for all but new }
 })
 
 // build POST /students ('create')
+router.post('/students')
 
+// build GET /students/:id/edit
+router.get('students/:id/edit')
+
+//build POST /students/:id
+router.post('students/:id')
+
+//build POST /students/:id/remove
+router.post('students/:id/remove')
 
 
