@@ -10,21 +10,23 @@ Example:
 
 function backronym(acronym){
 
-  var finalSentence = [];
-  var matchingWords = [];
-  var wordlist = ['Apple', 'Auto', 'Box', 'Bike', 'Cardboard', 'Creative', 'Department', 'District'];
-
-  var acro = acronym.split();
-  acro.map(function(){
-    var findMatch = wordlist.map(function(){
-      if(wordlist[j].charAt(0) == acro[i]){
-        matchingWords.push(wordlist);
-      }   
-    });
-  });
+    var finalSentence = [];
+    var matchingWords = [matchingWords[0]];
+  
+    var wordlist = ['Apple', 'Auto', 'Box', 'Bike', 'Cardboard', 'Creative', 'Department', 'District'];
+    var acro = acronym.split('');
+    for(var i=0; i<acro.length; i++){
+      for(var j=0; j<wordlist.length; j++){
+        if(wordlist[j].charAt(0) === acro[i]){
+          matchingWords.push(wordlist[j]);
+        }   
+      };
     finalSentence.push(matchingWords[1]); //Math.random() * (max - min) + min
-    return finalSentence.toString();
+    };
+  return finalSentence.toString();
   //reset matching words array??
-  }
+}
 
 backronym('ABCD');
+
+//can do just one word
