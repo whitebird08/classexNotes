@@ -23,8 +23,7 @@ var checkBoxes = $("input[type=checkbox]");
 ​
   prices.each(function(i, elem) {
     $("input[value=" + elem + "]").on("click", function() {
-      $(".home").hide();
-      var checkedFilters = $("input:checked").map(function() { return this.value })
+      $(".home").hide(); "input:checked").map(function() { return this.value })
       if (checkedFilters.length === 0) {
         $(".home").show();
       }//returns items in categories that match those with an input value of checked
@@ -39,4 +38,25 @@ var checkBoxes = $("input[type=checkbox]");
       };
     });
   });
+
+//////////
+ $('input[type=checkbox]').change(function(){
+   if ($('input[type=checkbox]:checked').length===0){
+     $('.home').show()
+   } else {
+     $('.home').hide()
+   }
+   $('input[type=checkbox]:checked').each(function(){
+     var lowest = 0;
+     var $sib = $(this).parent().prev()
+     if ($sib.length > 0){
+       lowest = $sib.find('input').val()
+     }
+     var highest = $(this).val()
+     $('.home').filter(function(){
+       var houseValue = parseInt($(this).attr('data-price'))
+       return houseValue > lowest && houseValue <= highest
+     }).show();
+   })
+ })
 ​
