@@ -1,4 +1,4 @@
-
+//local storage
 <form>
   <label>name
     <input id='name'>
@@ -18,4 +18,5 @@ console.log('howdy ' + localStorage.getItem("name", inputName.value))
 }
 
 //something like this for jquery
-$(.input).append('howdy ' + localStorage.getItem("name", inputName.value)
+$('.input').append(<p>'howdy ' + localStorage.getItem("name", inputName.value) + </p>)
+  
