@@ -1,3 +1,5 @@
+//https://github.com/whitebird08/oo-move-manager
+
 function MoveManager() {
   this.board = [
   ['x','x','x'],

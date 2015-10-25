@@ -1,0 +1,1208 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jasmine' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose config Skipping project config: /Users/ryanbird/.npmrc. (matches userconfig)
+6 verbose install initial load of /Users/ryanbird/package.json
+7 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/bcrypt/package.json
+8 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/bootstrap/package.json
+9 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/cookie-session/package.json
+10 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/cors/package.json
+11 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/dotenv/package.json
+12 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/express/package.json
+13 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/gulp/package.json
+14 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/httpdispatcher/package.json
+15 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/johnny-five/package.json
+16 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/monk/package.json
+17 verbose installManyTop reading scoped package data from /Users/ryanbird/node_modules/supertest/package.json
+18 info package.json httpdispatcher@0.4.0 No license field.
+19 info package.json monk@1.0.1 No license field.
+20 info package.json gulp@3.8.11 No license field.
+21 verbose readDependencies loading dependencies from /Users/ryanbird/package.json
+22 silly cache add args [ 'jasmine', null ]
+23 verbose cache add spec jasmine
+24 silly cache add parsed spec { raw: 'jasmine',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'jasmine',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: '*',
+24 silly cache add   type: 'range' }
+25 silly addNamed jasmine@*
+26 verbose addNamed "*" is a valid semver range for jasmine
+27 silly addNameRange { name: 'jasmine', range: '*', hasData: false }
+28 silly mapToRegistry name jasmine
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/jasmine
+32 verbose addNameRange registry:https://registry.npmjs.org/jasmine not in flight; fetching
+33 verbose request uri https://registry.npmjs.org/jasmine
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 09:42:13
+36 verbose request id 1b7848345365dac6
+37 verbose etag "E0W1EPVTMDD988H6IZPZNO6C3"
+38 http request GET https://registry.npmjs.org/jasmine
+39 http 200 https://registry.npmjs.org/jasmine
+40 silly get cb [ 200,
+40 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly get     etag: '"3RTAK6YFS7JWY9O6XCNOAKP9Y"',
+40 silly get     'content-type': 'application/json',
+40 silly get     'cache-control': 'max-age=60',
+40 silly get     'content-length': '11976',
+40 silly get     'accept-ranges': 'bytes',
+40 silly get     date: 'Wed, 21 Oct 2015 15:42:14 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     age: '10',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-ord1731-ORD',
+40 silly get     'x-cache': 'HIT',
+40 silly get     'x-cache-hits': '1',
+40 silly get     'x-timer': 'S1445442134.122958,VS0,VE6',
+40 silly get     vary: 'Accept' } ]
+41 verbose get saving jasmine to /Users/ryanbird/.npm/registry.npmjs.org/jasmine/.cache.json
+42 silly addNameRange number 2 { name: 'jasmine', range: '*', hasData: true }
+43 silly addNameRange versions [ 'jasmine',
+43 silly addNameRange   [ '2.0.1',
+43 silly addNameRange     '2.1.0',
+43 silly addNameRange     '2.1.1',
+43 silly addNameRange     '2.2.0',
+43 silly addNameRange     '2.2.1',
+43 silly addNameRange     '2.3.0',
+43 silly addNameRange     '2.3.1',
+43 silly addNameRange     '2.3.2' ] ]
+44 silly addNamed jasmine@2.3.2
+45 verbose addNamed "2.3.2" is a plain semver version for jasmine
+46 silly mapToRegistry name jasmine
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/jasmine
+50 verbose addRemoteTarball https://registry.npmjs.org/jasmine/-/jasmine-2.3.2.tgz not in flight; adding
+51 verbose addRemoteTarball [ 'https://registry.npmjs.org/jasmine/-/jasmine-2.3.2.tgz',
+51 verbose addRemoteTarball   'febf0e4b4afff63c2d09211f077da0b859f5f191' ]
+52 info retry fetch attempt 1 at 09:42:13
+53 info attempt registry request try #1 at 09:42:13
+54 http fetch GET https://registry.npmjs.org/jasmine/-/jasmine-2.3.2.tgz
+55 http fetch 200 https://registry.npmjs.org/jasmine/-/jasmine-2.3.2.tgz
+56 silly fetchAndShaCheck shasum febf0e4b4afff63c2d09211f077da0b859f5f191
+57 verbose addTmpTarball /var/folders/zl/kx128q8917x703dqjywc_81w0000gn/T/npm-21848-71088875/registry.npmjs.org/jasmine/-/jasmine-2.3.2.tgz not in flight; adding
+58 verbose addTmpTarball already have metadata; skipping unpack for jasmine@2.3.2
+59 silly cache afterAdd jasmine@2.3.2
+60 verbose afterAdd /Users/ryanbird/.npm/jasmine/2.3.2/package/package.json not in flight; writing
+61 verbose afterAdd /Users/ryanbird/.npm/jasmine/2.3.2/package/package.json written
+62 silly install resolved [ { name: 'jasmine',
+62 silly install resolved     description: 'Command line jasmine',
+62 silly install resolved     homepage: 'http://jasmine.github.io/',
+62 silly install resolved     keywords: [ 'test', 'jasmine', 'tdd', 'bdd' ],
+62 silly install resolved     license: 'MIT',
+62 silly install resolved     version: '2.3.2',
+62 silly install resolved     repository:
+62 silly install resolved      { type: 'git',
+62 silly install resolved        url: 'git+https://github.com/jasmine/jasmine-npm.git' },
+62 silly install resolved     scripts: { test: 'grunt && ./bin/jasmine.js' },
+62 silly install resolved     dependencies: { exit: '^0.1.2', glob: '^3.2.11', 'jasmine-core': '~2.3.0' },
+62 silly install resolved     bin: { jasmine: './bin/jasmine.js' },
+62 silly install resolved     main: './lib/jasmine.js',
+62 silly install resolved     devDependencies:
+62 silly install resolved      { grunt: '^0.4.2',
+62 silly install resolved        'grunt-cli': '^0.1.13',
+62 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+62 silly install resolved        shelljs: '^0.3.0' },
+62 silly install resolved     gitHead: '6c9d5896e582b06e577ea62bef965cd7468eefeb',
+62 silly install resolved     bugs: { url: 'https://github.com/jasmine/jasmine-npm/issues' },
+62 silly install resolved     _id: 'jasmine@2.3.2',
+62 silly install resolved     _shasum: 'febf0e4b4afff63c2d09211f077da0b859f5f191',
+62 silly install resolved     _from: 'jasmine@*',
+62 silly install resolved     _npmVersion: '2.12.1',
+62 silly install resolved     _nodeVersion: '0.12.6',
+62 silly install resolved     _npmUser: { name: 'slackersoft', email: 'gregg@slackersoft.net' },
+62 silly install resolved     dist:
+62 silly install resolved      { shasum: 'febf0e4b4afff63c2d09211f077da0b859f5f191',
+62 silly install resolved        tarball: 'http://registry.npmjs.org/jasmine/-/jasmine-2.3.2.tgz' },
+62 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+62 silly install resolved     directories: {},
+62 silly install resolved     _resolved: 'https://registry.npmjs.org/jasmine/-/jasmine-2.3.2.tgz' } ]
+63 info install jasmine@2.3.2 into /Users/ryanbird
+64 info installOne jasmine@2.3.2
+65 verbose installOne of jasmine to /Users/ryanbird not in flight; installing
+66 verbose lock using /Users/ryanbird/.npm/_locks/jasmine-78d1dbd71d042f7b.lock for /Users/ryanbird/node_modules/jasmine
+67 silly install write writing jasmine 2.3.2 to /Users/ryanbird/node_modules/jasmine
+68 verbose unbuild node_modules/jasmine
+69 silly gentlyRm /Users/ryanbird/node_modules/jasmine is being purged from base /Users/ryanbird
+70 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine
+71 verbose tar unpack /Users/ryanbird/.npm/jasmine/2.3.2/package.tgz
+72 verbose tar unpacking to /Users/ryanbird/node_modules/jasmine
+73 silly gentlyRm /Users/ryanbird/node_modules/jasmine is being purged
+74 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry Gruntfile.js
+79 silly gunzTarPerm extractEntry lib/command.js
+80 silly gunzTarPerm extractEntry lib/exit.js
+81 silly gunzTarPerm extractEntry lib/jasmine.js
+82 silly gunzTarPerm extractEntry lib/printDeprecation.js
+83 silly gunzTarPerm extractEntry lib/examples/jasmine.json
+84 silly gunzTarPerm extractEntry lib/filters/console_spec_filter.js
+85 silly gunzTarPerm extractEntry lib/reporters/console_reporter.js
+86 silly gunzTarPerm extractEntry lib/reporters/exit_code_reporter.js
+87 silly gunzTarPerm extractEntry bin/jasmine.js
+88 silly gunzTarPerm extractEntry .travis.yml
+89 silly gunzTarPerm extractEntry tasks/jasmine.js
+90 verbose write writing to /Users/ryanbird/node_modules/jasmine/package.json
+91 info preinstall jasmine@2.3.2
+92 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/package.json
+93 silly prepareForInstallMany adding exit@^0.1.2 from jasmine dependencies
+94 silly prepareForInstallMany adding glob@^3.2.11 from jasmine dependencies
+95 silly prepareForInstallMany adding jasmine-core@~2.3.0 from jasmine dependencies
+96 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/package.json
+97 silly cache add args [ 'glob@^3.2.11', null ]
+98 verbose cache add spec glob@^3.2.11
+99 silly cache add parsed spec { raw: 'glob@^3.2.11',
+99 silly cache add   scope: null,
+99 silly cache add   name: 'glob',
+99 silly cache add   rawSpec: '^3.2.11',
+99 silly cache add   spec: '>=3.2.11 <4.0.0',
+99 silly cache add   type: 'range' }
+100 silly addNamed glob@>=3.2.11 <4.0.0
+101 verbose addNamed ">=3.2.11 <4.0.0" is a valid semver range for glob
+102 silly addNameRange { name: 'glob', range: '>=3.2.11 <4.0.0', hasData: false }
+103 silly mapToRegistry name glob
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/glob
+107 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+108 silly cache add args [ 'jasmine-core@~2.3.0', null ]
+109 verbose cache add spec jasmine-core@~2.3.0
+110 silly cache add parsed spec { raw: 'jasmine-core@~2.3.0',
+110 silly cache add   scope: null,
+110 silly cache add   name: 'jasmine-core',
+110 silly cache add   rawSpec: '~2.3.0',
+110 silly cache add   spec: '>=2.3.0 <2.4.0',
+110 silly cache add   type: 'range' }
+111 silly addNamed jasmine-core@>=2.3.0 <2.4.0
+112 verbose addNamed ">=2.3.0 <2.4.0" is a valid semver range for jasmine-core
+113 silly addNameRange { name: 'jasmine-core', range: '>=2.3.0 <2.4.0', hasData: false }
+114 silly mapToRegistry name jasmine-core
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry uri https://registry.npmjs.org/jasmine-core
+118 verbose addNameRange registry:https://registry.npmjs.org/jasmine-core not in flight; fetching
+119 silly cache add args [ 'exit@^0.1.2', null ]
+120 verbose cache add spec exit@^0.1.2
+121 silly cache add parsed spec { raw: 'exit@^0.1.2',
+121 silly cache add   scope: null,
+121 silly cache add   name: 'exit',
+121 silly cache add   rawSpec: '^0.1.2',
+121 silly cache add   spec: '>=0.1.2 <0.2.0',
+121 silly cache add   type: 'range' }
+122 silly addNamed exit@>=0.1.2 <0.2.0
+123 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for exit
+124 silly addNameRange { name: 'exit', range: '>=0.1.2 <0.2.0', hasData: false }
+125 silly mapToRegistry name exit
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry uri https://registry.npmjs.org/exit
+129 verbose addNameRange registry:https://registry.npmjs.org/exit not in flight; fetching
+130 verbose request uri https://registry.npmjs.org/jasmine-core
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 09:42:14
+133 verbose etag "99GNUK9ILVWSY6A3UAGYWFQA3"
+134 http request GET https://registry.npmjs.org/jasmine-core
+135 verbose request uri https://registry.npmjs.org/exit
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 09:42:14
+138 verbose etag "66GA3RUQR76WJVRZF6ITVOZPO"
+139 http request GET https://registry.npmjs.org/exit
+140 verbose request uri https://registry.npmjs.org/glob
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 09:42:14
+143 verbose etag "AL7XAAAL6AMABM85HYTC4ZPG3"
+144 http request GET https://registry.npmjs.org/glob
+145 http 200 https://registry.npmjs.org/jasmine-core
+146 silly get cb [ 200,
+146 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+146 silly get     etag: '"9F907MLSJIRVRWH01MI60GXS"',
+146 silly get     'content-type': 'application/json',
+146 silly get     'cache-control': 'max-age=60',
+146 silly get     'content-length': '19637',
+146 silly get     'accept-ranges': 'bytes',
+146 silly get     date: 'Wed, 21 Oct 2015 15:42:14 GMT',
+146 silly get     via: '1.1 varnish',
+146 silly get     age: '55',
+146 silly get     connection: 'keep-alive',
+146 silly get     'x-served-by': 'cache-ord1727-ORD',
+146 silly get     'x-cache': 'HIT',
+146 silly get     'x-cache-hits': '3',
+146 silly get     'x-timer': 'S1445442134.966974,VS0,VE0',
+146 silly get     vary: 'Accept' } ]
+147 verbose get saving jasmine-core to /Users/ryanbird/.npm/registry.npmjs.org/jasmine-core/.cache.json
+148 http 304 https://registry.npmjs.org/exit
+149 silly get cb [ 304,
+149 silly get   { date: 'Wed, 21 Oct 2015 15:42:15 GMT',
+149 silly get     via: '1.1 varnish',
+149 silly get     'cache-control': 'max-age=60',
+149 silly get     etag: '"66GA3RUQR76WJVRZF6ITVOZPO"',
+149 silly get     age: '8',
+149 silly get     connection: 'keep-alive',
+149 silly get     'x-served-by': 'cache-ord1735-ORD',
+149 silly get     'x-cache': 'HIT',
+149 silly get     'x-cache-hits': '1',
+149 silly get     'x-timer': 'S1445442135.022819,VS0,VE0',
+149 silly get     vary: 'Accept' } ]
+150 verbose etag https://registry.npmjs.org/exit from cache
+151 verbose get saving exit to /Users/ryanbird/.npm/registry.npmjs.org/exit/.cache.json
+152 silly addNameRange number 2 { name: 'jasmine-core', range: '>=2.3.0 <2.4.0', hasData: true }
+153 silly addNameRange versions [ 'jasmine-core',
+153 silly addNameRange   [ '2.0.0',
+153 silly addNameRange     '2.0.1',
+153 silly addNameRange     '2.0.4',
+153 silly addNameRange     '2.1.0',
+153 silly addNameRange     '2.1.1',
+153 silly addNameRange     '2.1.2',
+153 silly addNameRange     '2.1.3',
+153 silly addNameRange     '2.2.0',
+153 silly addNameRange     '2.3.0',
+153 silly addNameRange     '2.3.2',
+153 silly addNameRange     '2.3.3',
+153 silly addNameRange     '2.3.4' ] ]
+154 silly addNamed jasmine-core@2.3.4
+155 verbose addNamed "2.3.4" is a plain semver version for jasmine-core
+156 silly addNameRange number 2 { name: 'exit', range: '>=0.1.2 <0.2.0', hasData: true }
+157 silly addNameRange versions [ 'exit', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+158 silly addNamed exit@0.1.2
+159 verbose addNamed "0.1.2" is a plain semver version for exit
+160 silly cache afterAdd jasmine-core@2.3.4
+161 verbose afterAdd /Users/ryanbird/.npm/jasmine-core/2.3.4/package/package.json not in flight; writing
+162 silly cache afterAdd exit@0.1.2
+163 verbose afterAdd /Users/ryanbird/.npm/exit/0.1.2/package/package.json not in flight; writing
+164 verbose afterAdd /Users/ryanbird/.npm/jasmine-core/2.3.4/package/package.json written
+165 verbose afterAdd /Users/ryanbird/.npm/exit/0.1.2/package/package.json written
+166 http 200 https://registry.npmjs.org/glob
+167 silly get cb [ 200,
+167 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+167 silly get     etag: '"BZOCE8S48WO78UJ0LW96EMJRV"',
+167 silly get     'content-type': 'application/json',
+167 silly get     'cache-control': 'max-age=60',
+167 silly get     'content-length': '109139',
+167 silly get     'accept-ranges': 'bytes',
+167 silly get     date: 'Wed, 21 Oct 2015 15:42:14 GMT',
+167 silly get     via: '1.1 varnish',
+167 silly get     age: '9',
+167 silly get     connection: 'keep-alive',
+167 silly get     'x-served-by': 'cache-ord1730-ORD',
+167 silly get     'x-cache': 'HIT',
+167 silly get     'x-cache-hits': '3',
+167 silly get     'x-timer': 'S1445442134.967711,VS0,VE0',
+167 silly get     vary: 'Accept' } ]
+168 verbose get saving glob to /Users/ryanbird/.npm/registry.npmjs.org/glob/.cache.json
+169 silly addNameRange number 2 { name: 'glob', range: '>=3.2.11 <4.0.0', hasData: true }
+170 silly addNameRange versions [ 'glob',
+170 silly addNameRange   [ '1.1.0',
+170 silly addNameRange     '2.0.9',
+170 silly addNameRange     '2.0.8',
+170 silly addNameRange     '2.0.7',
+170 silly addNameRange     '2.1.0',
+170 silly addNameRange     '3.0.0',
+170 silly addNameRange     '3.0.1',
+170 silly addNameRange     '3.1.0',
+170 silly addNameRange     '3.1.1',
+170 silly addNameRange     '3.1.2',
+170 silly addNameRange     '3.1.3',
+170 silly addNameRange     '3.1.4',
+170 silly addNameRange     '3.1.5',
+170 silly addNameRange     '3.1.6',
+170 silly addNameRange     '3.1.7',
+170 silly addNameRange     '3.1.9',
+170 silly addNameRange     '3.1.10',
+170 silly addNameRange     '3.1.11',
+170 silly addNameRange     '3.1.12',
+170 silly addNameRange     '3.1.13',
+170 silly addNameRange     '3.1.14',
+170 silly addNameRange     '3.1.15',
+170 silly addNameRange     '3.1.16',
+170 silly addNameRange     '3.1.17',
+170 silly addNameRange     '3.1.18',
+170 silly addNameRange     '3.1.19',
+170 silly addNameRange     '3.1.20',
+170 silly addNameRange     '3.1.21',
+170 silly addNameRange     '3.2.0',
+170 silly addNameRange     '3.2.1',
+170 silly addNameRange     '3.2.3',
+170 silly addNameRange     '3.2.4',
+170 silly addNameRange     '3.2.5',
+170 silly addNameRange     '3.2.6',
+170 silly addNameRange     '3.2.7',
+170 silly addNameRange     '3.2.8',
+170 silly addNameRange     '3.2.9',
+170 silly addNameRange     '3.2.10',
+170 silly addNameRange     '3.2.11',
+170 silly addNameRange     '4.0.0',
+170 silly addNameRange     '4.0.1',
+170 silly addNameRange     '4.0.2',
+170 silly addNameRange     '4.0.3',
+170 silly addNameRange     '4.0.4',
+170 silly addNameRange     '4.0.5',
+170 silly addNameRange     '4.0.6',
+170 silly addNameRange     '4.1.2-beta',
+170 silly addNameRange     '4.1.2',
+170 silly addNameRange     '4.1.3',
+170 silly addNameRange     '4.1.4',
+170 silly addNameRange     '4.1.5',
+170 silly addNameRange     '4.1.6',
+170 silly addNameRange     '4.2.0',
+170 silly addNameRange     '4.2.1',
+170 silly addNameRange     '4.2.2',
+170 silly addNameRange     '4.3.0',
+170 silly addNameRange     '4.3.1',
+170 silly addNameRange     '4.3.2',
+170 silly addNameRange     '4.3.3',
+170 silly addNameRange     '4.3.4',
+170 silly addNameRange     '4.3.5',
+170 silly addNameRange     '4.4.0',
+170 silly addNameRange     '4.4.2',
+170 silly addNameRange     '4.5.0',
+170 silly addNameRange     '5.0.0',
+170 silly addNameRange     '4.5.1',
+170 silly addNameRange     '5.0.1',
+170 silly addNameRange     '4.5.2',
+170 silly addNameRange     '5.0.2',
+170 silly addNameRange     '4.5.3',
+170 silly addNameRange     '5.0.3',
+170 silly addNameRange     '5.0.4',
+170 silly addNameRange     '5.0.5',
+170 silly addNameRange     '5.0.6',
+170 silly addNameRange     '5.0.7',
+170 silly addNameRange     '5.0.9',
+170 silly addNameRange     '5.0.10',
+170 silly addNameRange     '5.0.11',
+170 silly addNameRange     '5.0.12',
+170 silly addNameRange     '5.0.13',
+170 silly addNameRange     '5.0.14',
+170 silly addNameRange     '5.0.15' ] ]
+171 silly addNamed glob@3.2.11
+172 verbose addNamed "3.2.11" is a plain semver version for glob
+173 silly cache afterAdd glob@3.2.11
+174 verbose afterAdd /Users/ryanbird/.npm/glob/3.2.11/package/package.json not in flight; writing
+175 verbose afterAdd /Users/ryanbird/.npm/glob/3.2.11/package/package.json written
+176 silly install resolved [ { name: 'jasmine-core',
+176 silly install resolved     license: 'MIT',
+176 silly install resolved     version: '2.3.4',
+176 silly install resolved     repository:
+176 silly install resolved      { type: 'git',
+176 silly install resolved        url: 'git+https://github.com/jasmine/jasmine.git' },
+176 silly install resolved     keywords: [ 'test', 'jasmine', 'tdd', 'bdd' ],
+176 silly install resolved     scripts: { test: 'grunt jshint execSpecsInNode' },
+176 silly install resolved     description: 'Official packaging of Jasmine\'s core files for use by Node.js projects.',
+176 silly install resolved     homepage: 'http://jasmine.github.io',
+176 silly install resolved     main: './lib/jasmine-core.js',
+176 silly install resolved     devDependencies:
+176 silly install resolved      { glob: '~3.2.9',
+176 silly install resolved        grunt: '~0.4.1',
+176 silly install resolved        'grunt-cli': '^0.1.13',
+176 silly install resolved        'grunt-contrib-compass': '~0.6.0',
+176 silly install resolved        'grunt-contrib-compress': '~0.5.2',
+176 silly install resolved        'grunt-contrib-concat': '~0.3.0',
+176 silly install resolved        'grunt-contrib-jshint': '~0.7.0',
+176 silly install resolved        jasmine: 'https://github.com/jasmine/jasmine-npm/archive/master.tar.gz',
+176 silly install resolved        'load-grunt-tasks': '^0.4.0',
+176 silly install resolved        shelljs: '~0.1.4',
+176 silly install resolved        temp: '~0.8.1' },
+176 silly install resolved     gitHead: '0b1449228ff42df47f4e18a186134f4aa44b8b7b',
+176 silly install resolved     bugs: { url: 'https://github.com/jasmine/jasmine/issues' },
+176 silly install resolved     _id: 'jasmine-core@2.3.4',
+176 silly install resolved     _shasum: 'ad772662b32d16c564ee25c863edae1d65a038f2',
+176 silly install resolved     _from: 'jasmine-core@>=2.3.0 <2.4.0',
+176 silly install resolved     _npmVersion: '2.5.1',
+176 silly install resolved     _nodeVersion: '0.12.0',
+176 silly install resolved     _npmUser: { name: 'slackersoft', email: 'gregg@slackersoft.net' },
+176 silly install resolved     dist:
+176 silly install resolved      { shasum: 'ad772662b32d16c564ee25c863edae1d65a038f2',
+176 silly install resolved        tarball: 'http://registry.npmjs.org/jasmine-core/-/jasmine-core-2.3.4.tgz' },
+176 silly install resolved     maintainers: [ [Object], [Object] ],
+176 silly install resolved     directories: {},
+176 silly install resolved     _resolved: 'https://registry.npmjs.org/jasmine-core/-/jasmine-core-2.3.4.tgz',
+176 silly install resolved     readme: 'ERROR: No README data found!' },
+176 silly install resolved   { name: 'exit',
+176 silly install resolved     description: 'A replacement for process.exit that ensures stdio are fully drained before exiting.',
+176 silly install resolved     version: '0.1.2',
+176 silly install resolved     homepage: 'https://github.com/cowboy/node-exit',
+176 silly install resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+176 silly install resolved     repository: { type: 'git', url: 'git://github.com/cowboy/node-exit.git' },
+176 silly install resolved     bugs: { url: 'https://github.com/cowboy/node-exit/issues' },
+176 silly install resolved     licenses: [ [Object] ],
+176 silly install resolved     main: 'lib/exit',
+176 silly install resolved     engines: { node: '>= 0.8.0' },
+176 silly install resolved     scripts: { test: 'grunt nodeunit' },
+176 silly install resolved     devDependencies:
+176 silly install resolved      { 'grunt-contrib-jshint': '~0.6.4',
+176 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+176 silly install resolved        'grunt-contrib-watch': '~0.5.3',
+176 silly install resolved        grunt: '~0.4.1',
+176 silly install resolved        which: '~1.0.5' },
+176 silly install resolved     keywords:
+176 silly install resolved      [ 'exit',
+176 silly install resolved        'process',
+176 silly install resolved        'stdio',
+176 silly install resolved        'stdout',
+176 silly install resolved        'stderr',
+176 silly install resolved        'drain',
+176 silly install resolved        'flush',
+176 silly install resolved        '3584' ],
+176 silly install resolved     readme: '# exit [![Build Status](https://secure.travis-ci.org/cowboy/node-exit.png?branch=master)](http://travis-ci.org/cowboy/node-exit)\n\nA replacement for process.exit that ensures stdio are fully drained before exiting.\n\nTo make a long story short, if `process.exit` is called on Windows, script output is often truncated when pipe-redirecting `stdout` or `stderr`. This module attempts to work around this issue by waiting until those streams have been completely drained before actually calling `process.exit`.\n\nSee [Node.js issue #3584](https://github.com/joyent/node/issues/3584) for further reference.\n\nTested in OS X 10.8, Windows 7 on Node.js 0.8.25 and 0.10.18.\n\nBased on some code by [@vladikoff](https://github.com/vladikoff).\n\n## Getting Started\nInstall the module with: `npm install exit`\n\n```javascript\nvar exit = require(\'exit\');\n\n// These lines should appear in the output, EVEN ON WINDOWS.\nconsole.log("omg");\nconsole.error("yay");\n\n// process.exit(5);\nexit(5);\n\n// These lines shouldn\'t appear in the output.\nconsole.log("wtf");\nconsole.error("bro");\n```\n\n## Don\'t believe me? Try it for yourself.\n\nIn Windows, clone the repo and cd to the `test\\fixtures` directory. The only difference between [log.js](test/fixtures/log.js) and [log-broken.js](test/fixtures/log-broken.js) is that the former uses `exit` while the latter calls `process.exit` directly.\n\nThis test was done using cmd.exe, but you can see the same results using `| grep "std"` in either PowerShell or git-bash.\n\n```\nC:\\node-exit\\test\\fixtures>node log.js 0 10 stdout stderr 2>&1 | find "std"\nstdout 0\nstderr 0\nstdout 1\nstderr 1\nstdout 2\nstderr 2\nstdout 3\nstderr 3\nstdout 4\nstderr 4\nstdout 5\nstderr 5\nstdout 6\nstderr 6\nstdout 7\nstderr 7\nstdout 8\nstderr 8\nstdout 9\nstderr 9\n\nC:\\node-exit\\test\\fixtures>node log-broken.js 0 10 stdout stderr 2>&1 | find "std"\n\nC:\\node-exit\\test\\fixtures>\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n## Release History\n2013-11-26 - v0.1.2 - Fixed a bug with hanging processes.  \n2013-09-26 - v0.1.1 - Fixed some bugs. It seems to actually work now!  \n2013-09-20 - v0.1.0 - Initial release.\n\n## License\nCopyright (c) 2013 "Cowboy" Ben Alman  \nLicensed under the MIT license.\n',
+176 silly install resolved     readmeFilename: 'README.md',
+176 silly install resolved     _id: 'exit@0.1.2',
+176 silly install resolved     dist:
+176 silly install resolved      { shasum: '0632638f8d877cc82107d30a0fff1a17cba1cd0c',
+176 silly install resolved        tarball: 'http://registry.npmjs.org/exit/-/exit-0.1.2.tgz' },
+176 silly install resolved     _from: 'exit@>=0.1.2 <0.2.0',
+176 silly install resolved     _npmVersion: '1.3.11',
+176 silly install resolved     _npmUser: { name: 'cowboy', email: 'cowboy@rj3.net' },
+176 silly install resolved     maintainers: [ [Object] ],
+176 silly install resolved     directories: {},
+176 silly install resolved     _shasum: '0632638f8d877cc82107d30a0fff1a17cba1cd0c',
+176 silly install resolved     _resolved: 'https://registry.npmjs.org/exit/-/exit-0.1.2.tgz' },
+176 silly install resolved   { author:
+176 silly install resolved      { name: 'Isaac Z. Schlueter',
+176 silly install resolved        email: 'i@izs.me',
+176 silly install resolved        url: 'http://blog.izs.me/' },
+176 silly install resolved     name: 'glob',
+176 silly install resolved     description: 'a little globber',
+176 silly install resolved     version: '3.2.11',
+176 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-glob.git' },
+176 silly install resolved     main: 'glob.js',
+176 silly install resolved     engines: { node: '*' },
+176 silly install resolved     dependencies: { inherits: '2', minimatch: '0.3' },
+176 silly install resolved     devDependencies: { tap: '~0.4.0', mkdirp: '0', rimraf: '1' },
+176 silly install resolved     scripts:
+176 silly install resolved      { test: 'tap test/*.js',
+176 silly install resolved        'test-regen': 'TEST_REGEN=1 node test/00-setup.js' },
+176 silly install resolved     license: 'BSD',
+176 silly install resolved     gitHead: '73f57e99510582b2024b762305970ebcf9b70aa2',
+176 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-glob/issues' },
+176 silly install resolved     homepage: 'https://github.com/isaacs/node-glob',
+176 silly install resolved     _id: 'glob@3.2.11',
+176 silly install resolved     _shasum: '4a973f635b9190f715d10987d5c00fd2815ebe3d',
+176 silly install resolved     _from: 'glob@>=3.2.11 <4.0.0',
+176 silly install resolved     _npmVersion: '1.4.10',
+176 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+176 silly install resolved     maintainers: [ [Object] ],
+176 silly install resolved     dist:
+176 silly install resolved      { shasum: '4a973f635b9190f715d10987d5c00fd2815ebe3d',
+176 silly install resolved        tarball: 'http://registry.npmjs.org/glob/-/glob-3.2.11.tgz' },
+176 silly install resolved     directories: {},
+176 silly install resolved     _resolved: 'https://registry.npmjs.org/glob/-/glob-3.2.11.tgz',
+176 silly install resolved     readme: 'ERROR: No README data found!' } ]
+177 info install jasmine-core@2.3.4 into /Users/ryanbird/node_modules/jasmine
+178 info install exit@0.1.2 into /Users/ryanbird/node_modules/jasmine
+179 info install glob@3.2.11 into /Users/ryanbird/node_modules/jasmine
+180 info installOne jasmine-core@2.3.4
+181 verbose installOne of jasmine-core to /Users/ryanbird/node_modules/jasmine not in flight; installing
+182 info installOne exit@0.1.2
+183 verbose installOne of exit to /Users/ryanbird/node_modules/jasmine not in flight; installing
+184 info installOne glob@3.2.11
+185 verbose installOne of glob to /Users/ryanbird/node_modules/jasmine not in flight; installing
+186 verbose lock using /Users/ryanbird/.npm/_locks/jasmine-core-ac4f835fd96280ff.lock for /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core
+187 silly install write writing jasmine-core 2.3.4 to /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core
+188 verbose lock using /Users/ryanbird/.npm/_locks/exit-01c55e6379c01782.lock for /Users/ryanbird/node_modules/jasmine/node_modules/exit
+189 verbose lock using /Users/ryanbird/.npm/_locks/glob-65f93073f20d1e96.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob
+190 silly install write writing exit 0.1.2 to /Users/ryanbird/node_modules/jasmine/node_modules/exit
+191 silly install write writing glob 3.2.11 to /Users/ryanbird/node_modules/jasmine/node_modules/glob
+192 verbose unbuild node_modules/jasmine/node_modules/jasmine-core
+193 verbose unbuild node_modules/jasmine/node_modules/glob
+194 verbose unbuild node_modules/jasmine/node_modules/exit
+195 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core is being purged from base /Users/ryanbird
+196 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core
+197 verbose tar unpack /Users/ryanbird/.npm/jasmine-core/2.3.4/package.tgz
+198 verbose tar unpacking to /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core
+199 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core is being purged
+200 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core
+201 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob is being purged from base /Users/ryanbird
+202 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob
+203 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/exit is being purged from base /Users/ryanbird
+204 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/exit
+205 silly gunzTarPerm modes [ '755', '644' ]
+206 verbose tar unpack /Users/ryanbird/.npm/glob/3.2.11/package.tgz
+207 verbose tar unpacking to /Users/ryanbird/node_modules/jasmine/node_modules/glob
+208 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob is being purged
+209 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob
+210 verbose tar unpack /Users/ryanbird/.npm/exit/0.1.2/package.tgz
+211 verbose tar unpacking to /Users/ryanbird/node_modules/jasmine/node_modules/exit
+212 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/exit is being purged
+213 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/exit
+214 silly gunzTarPerm modes [ '755', '644' ]
+215 silly gunzTarPerm modes [ '755', '644' ]
+216 silly gunzTarPerm extractEntry package.json
+217 silly gunzTarPerm extractEntry package.json
+218 silly gunzTarPerm extractEntry package.json
+219 silly gunzTarPerm extractEntry .npmignore
+220 silly gunzTarPerm extractEntry README.md
+221 silly gunzTarPerm extractEntry .npmignore
+222 silly gunzTarPerm extractEntry README.md
+223 silly gunzTarPerm extractEntry .npmignore
+224 silly gunzTarPerm extractEntry README.md
+225 silly gunzTarPerm extractEntry LICENSE
+226 silly gunzTarPerm extractEntry glob.js
+227 silly gunzTarPerm extractEntry Gruntfile.js
+228 silly gunzTarPerm extractEntry .jshintrc
+229 silly gunzTarPerm extractEntry CONTRIBUTING.md
+230 silly gunzTarPerm extractEntry GOALS_2.0.md
+231 silly gunzTarPerm extractEntry .travis.yml
+232 silly gunzTarPerm extractEntry LICENSE-MIT
+233 silly gunzTarPerm extractEntry MANIFEST.in
+234 silly gunzTarPerm extractEntry .travis.yml
+235 silly gunzTarPerm extractEntry lib/exit.js
+236 silly gunzTarPerm extractEntry test/exit_test.js
+237 silly gunzTarPerm extractEntry MIT.LICENSE
+238 silly gunzTarPerm extractEntry RELEASE.md
+239 silly gunzTarPerm extractEntry test/fixtures/log.js
+240 silly gunzTarPerm extractEntry examples/g.js
+241 silly gunzTarPerm extractEntry examples/usr-local.js
+242 silly gunzTarPerm extractEntry test/fixtures/log-broken.js
+243 silly gunzTarPerm extractEntry test/fixtures/10-stdout.txt
+244 silly gunzTarPerm extractEntry bower.json
+245 silly gunzTarPerm extractEntry images/jasmine-horizontal.png
+246 silly gunzTarPerm extractEntry test/00-setup.js
+247 silly gunzTarPerm extractEntry test/cwd-test.js
+248 silly gunzTarPerm extractEntry test/globstar-match.js
+249 silly gunzTarPerm extractEntry test/fixtures/100-stderr.txt
+250 silly gunzTarPerm extractEntry test/fixtures/100-stdout-stderr.txt
+251 silly gunzTarPerm extractEntry images/jasmine-horizontal.svg
+252 silly gunzTarPerm extractEntry images/jasmine_favicon.png
+253 silly gunzTarPerm extractEntry test/fixtures/100-stdout.txt
+254 silly gunzTarPerm extractEntry test/fixtures/10-stdout-stderr.txt
+255 silly gunzTarPerm extractEntry lib/jasmine-core.js
+256 silly gunzTarPerm extractEntry lib/console/console.js
+257 silly gunzTarPerm extractEntry test/fixtures/1000-stdout-stderr.txt
+258 silly gunzTarPerm extractEntry test/fixtures/1000-stdout.txt
+259 silly gunzTarPerm extractEntry test/mark.js
+260 silly gunzTarPerm extractEntry lib/jasmine-core/boot.js
+261 silly gunzTarPerm extractEntry lib/jasmine-core/jasmine-html.js
+262 silly gunzTarPerm extractEntry test/stat.js
+263 silly gunzTarPerm extractEntry test/bash-comparison.js
+264 silly gunzTarPerm extractEntry lib/jasmine-core/jasmine.js
+265 silly gunzTarPerm extractEntry lib/jasmine-core/json2.js
+266 silly gunzTarPerm extractEntry test/fixtures/create-files.sh
+267 silly gunzTarPerm extractEntry test/fixtures/10-stderr.txt
+268 silly gunzTarPerm extractEntry test/pause-resume.js
+269 silly gunzTarPerm extractEntry test/readme-issue.js
+270 silly gunzTarPerm extractEntry lib/jasmine-core/node_boot.js
+271 silly gunzTarPerm extractEntry lib/jasmine-core/example/node_example/lib/jasmine_examples/Player.js
+272 silly gunzTarPerm extractEntry test/fixtures/1000-stderr.txt
+273 silly gunzTarPerm extractEntry test/root-nomount.js
+274 silly gunzTarPerm extractEntry test/root.js
+275 silly gunzTarPerm extractEntry lib/jasmine-core/example/node_example/lib/jasmine_examples/Song.js
+276 silly gunzTarPerm extractEntry lib/jasmine-core/example/node_example/spec/helpers/jasmine_examples/SpecHelper.js
+277 silly gunzTarPerm extractEntry test/new-glob-optional-options.js
+278 silly gunzTarPerm extractEntry test/zz-cleanup.js
+279 silly gunzTarPerm extractEntry test/nocase-nomagic.js
+280 silly gunzTarPerm extractEntry test/bash-results.json
+281 silly gunzTarPerm extractEntry lib/jasmine-core/example/node_example/spec/jasmine_examples/PlayerSpec.js
+282 silly gunzTarPerm extractEntry lib/jasmine-core/example/spec/PlayerSpec.js
+283 silly gunzTarPerm extractEntry lib/jasmine-core/example/spec/SpecHelper.js
+284 silly gunzTarPerm extractEntry lib/jasmine-core/example/src/Player.js
+285 silly gunzTarPerm extractEntry lib/jasmine-core/example/src/Song.js
+286 silly gunzTarPerm extractEntry lib/jasmine-core/jasmine.css
+287 silly gunzTarPerm extractEntry requirements.txt
+288 verbose write writing to /Users/ryanbird/node_modules/jasmine/node_modules/exit/package.json
+289 info preinstall exit@0.1.2
+290 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/exit/package.json
+291 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/exit/package.json
+292 silly install resolved []
+293 verbose about to build /Users/ryanbird/node_modules/jasmine/node_modules/exit
+294 info build /Users/ryanbird/node_modules/jasmine/node_modules/exit
+295 info linkStuff exit@0.1.2
+296 silly linkStuff exit@0.1.2 has /Users/ryanbird/node_modules/jasmine/node_modules as its parent node_modules
+297 verbose linkBins exit@0.1.2
+298 verbose linkMans exit@0.1.2
+299 verbose rebuildBundles exit@0.1.2
+300 info install exit@0.1.2
+301 info postinstall exit@0.1.2
+302 verbose unlock done using /Users/ryanbird/.npm/_locks/exit-01c55e6379c01782.lock for /Users/ryanbird/node_modules/jasmine/node_modules/exit
+303 verbose write writing to /Users/ryanbird/node_modules/jasmine/node_modules/glob/package.json
+304 info preinstall glob@3.2.11
+305 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/package.json
+306 silly prepareForInstallMany adding inherits@2 from glob dependencies
+307 silly prepareForInstallMany adding minimatch@0.3 from glob dependencies
+308 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/package.json
+309 silly cache add args [ 'inherits@2', null ]
+310 verbose cache add spec inherits@2
+311 silly cache add args [ 'minimatch@0.3', null ]
+312 verbose cache add spec minimatch@0.3
+313 silly cache add parsed spec { raw: 'inherits@2',
+313 silly cache add   scope: null,
+313 silly cache add   name: 'inherits',
+313 silly cache add   rawSpec: '2',
+313 silly cache add   spec: '>=2.0.0 <3.0.0',
+313 silly cache add   type: 'range' }
+314 silly addNamed inherits@>=2.0.0 <3.0.0
+315 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for inherits
+316 silly addNameRange { name: 'inherits', range: '>=2.0.0 <3.0.0', hasData: false }
+317 silly mapToRegistry name inherits
+318 silly mapToRegistry using default registry
+319 silly mapToRegistry registry https://registry.npmjs.org/
+320 silly mapToRegistry uri https://registry.npmjs.org/inherits
+321 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+322 silly cache add parsed spec { raw: 'minimatch@0.3',
+322 silly cache add   scope: null,
+322 silly cache add   name: 'minimatch',
+322 silly cache add   rawSpec: '0.3',
+322 silly cache add   spec: '>=0.3.0 <0.4.0',
+322 silly cache add   type: 'range' }
+323 silly addNamed minimatch@>=0.3.0 <0.4.0
+324 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for minimatch
+325 silly addNameRange { name: 'minimatch', range: '>=0.3.0 <0.4.0', hasData: false }
+326 silly mapToRegistry name minimatch
+327 silly mapToRegistry using default registry
+328 silly mapToRegistry registry https://registry.npmjs.org/
+329 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+330 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+331 verbose request uri https://registry.npmjs.org/inherits
+332 verbose request no auth needed
+333 info attempt registry request try #1 at 09:42:15
+334 verbose etag "83S1U6S25IVR6LLBMEY64SYT2"
+335 http request GET https://registry.npmjs.org/inherits
+336 verbose request uri https://registry.npmjs.org/minimatch
+337 verbose request no auth needed
+338 info attempt registry request try #1 at 09:42:15
+339 verbose etag "SEM79P7E1QDXOXODDH7YO2BD"
+340 http request GET https://registry.npmjs.org/minimatch
+341 verbose write writing to /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core/package.json
+342 info preinstall jasmine-core@2.3.4
+343 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core/package.json
+344 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core/package.json
+345 silly install resolved []
+346 verbose about to build /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core
+347 info build /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core
+348 info linkStuff jasmine-core@2.3.4
+349 silly linkStuff jasmine-core@2.3.4 has /Users/ryanbird/node_modules/jasmine/node_modules as its parent node_modules
+350 verbose linkBins jasmine-core@2.3.4
+351 verbose linkMans jasmine-core@2.3.4
+352 verbose rebuildBundles jasmine-core@2.3.4
+353 info install jasmine-core@2.3.4
+354 info postinstall jasmine-core@2.3.4
+355 verbose unlock done using /Users/ryanbird/.npm/_locks/jasmine-core-ac4f835fd96280ff.lock for /Users/ryanbird/node_modules/jasmine/node_modules/jasmine-core
+356 http 304 https://registry.npmjs.org/inherits
+357 silly get cb [ 304,
+357 silly get   { date: 'Wed, 21 Oct 2015 15:42:16 GMT',
+357 silly get     via: '1.1 varnish',
+357 silly get     'cache-control': 'max-age=60',
+357 silly get     etag: '"83S1U6S25IVR6LLBMEY64SYT2"',
+357 silly get     age: '27',
+357 silly get     connection: 'keep-alive',
+357 silly get     'x-served-by': 'cache-ord1728-ORD',
+357 silly get     'x-cache': 'HIT',
+357 silly get     'x-cache-hits': '4',
+357 silly get     'x-timer': 'S1445442136.013919,VS0,VE0',
+357 silly get     vary: 'Accept' } ]
+358 verbose etag https://registry.npmjs.org/inherits from cache
+359 verbose get saving inherits to /Users/ryanbird/.npm/registry.npmjs.org/inherits/.cache.json
+360 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.0 <3.0.0', hasData: true }
+361 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1', '1.0.1', '1.0.2' ] ]
+362 silly addNamed inherits@2.0.1
+363 verbose addNamed "2.0.1" is a plain semver version for inherits
+364 silly cache afterAdd inherits@2.0.1
+365 verbose afterAdd /Users/ryanbird/.npm/inherits/2.0.1/package/package.json not in flight; writing
+366 verbose afterAdd /Users/ryanbird/.npm/inherits/2.0.1/package/package.json written
+367 http 200 https://registry.npmjs.org/minimatch
+368 silly get cb [ 200,
+368 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+368 silly get     etag: '"74Y2R4NV4FFDLR942180M8IG0"',
+368 silly get     'content-type': 'application/json',
+368 silly get     'cache-control': 'max-age=60',
+368 silly get     'content-length': '46064',
+368 silly get     'accept-ranges': 'bytes',
+368 silly get     date: 'Wed, 21 Oct 2015 15:42:16 GMT',
+368 silly get     via: '1.1 varnish',
+368 silly get     age: '55',
+368 silly get     connection: 'keep-alive',
+368 silly get     'x-served-by': 'cache-ord1733-ORD',
+368 silly get     'x-cache': 'HIT',
+368 silly get     'x-cache-hits': '7',
+368 silly get     'x-timer': 'S1445442136.011617,VS0,VE0',
+368 silly get     vary: 'Accept' } ]
+369 verbose get saving minimatch to /Users/ryanbird/.npm/registry.npmjs.org/minimatch/.cache.json
+370 silly addNameRange number 2 { name: 'minimatch', range: '>=0.3.0 <0.4.0', hasData: true }
+371 silly addNameRange versions [ 'minimatch',
+371 silly addNameRange   [ '0.0.1',
+371 silly addNameRange     '0.0.2',
+371 silly addNameRange     '0.0.4',
+371 silly addNameRange     '0.0.5',
+371 silly addNameRange     '0.1.1',
+371 silly addNameRange     '0.1.2',
+371 silly addNameRange     '0.1.3',
+371 silly addNameRange     '0.1.4',
+371 silly addNameRange     '0.1.5',
+371 silly addNameRange     '0.2.0',
+371 silly addNameRange     '0.2.2',
+371 silly addNameRange     '0.2.3',
+371 silly addNameRange     '0.2.4',
+371 silly addNameRange     '0.2.5',
+371 silly addNameRange     '0.2.6',
+371 silly addNameRange     '0.2.7',
+371 silly addNameRange     '0.2.8',
+371 silly addNameRange     '0.2.9',
+371 silly addNameRange     '0.2.10',
+371 silly addNameRange     '0.2.11',
+371 silly addNameRange     '0.2.12',
+371 silly addNameRange     '0.2.13',
+371 silly addNameRange     '0.2.14',
+371 silly addNameRange     '0.3.0',
+371 silly addNameRange     '0.4.0',
+371 silly addNameRange     '1.0.0',
+371 silly addNameRange     '2.0.0',
+371 silly addNameRange     '2.0.1',
+371 silly addNameRange     '2.0.2',
+371 silly addNameRange     '2.0.3',
+371 silly addNameRange     '2.0.4',
+371 silly addNameRange     '2.0.5',
+371 silly addNameRange     '2.0.6',
+371 silly addNameRange     '2.0.7',
+371 silly addNameRange     '2.0.8',
+371 silly addNameRange     '2.0.9',
+371 silly addNameRange     '2.0.10',
+371 silly addNameRange     '3.0.0' ] ]
+372 silly addNamed minimatch@0.3.0
+373 verbose addNamed "0.3.0" is a plain semver version for minimatch
+374 silly cache afterAdd minimatch@0.3.0
+375 verbose afterAdd /Users/ryanbird/.npm/minimatch/0.3.0/package/package.json not in flight; writing
+376 verbose afterAdd /Users/ryanbird/.npm/minimatch/0.3.0/package/package.json written
+377 silly install resolved [ { name: 'inherits',
+377 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+377 silly install resolved     version: '2.0.1',
+377 silly install resolved     keywords:
+377 silly install resolved      [ 'inheritance',
+377 silly install resolved        'class',
+377 silly install resolved        'klass',
+377 silly install resolved        'oop',
+377 silly install resolved        'object-oriented',
+377 silly install resolved        'inherits',
+377 silly install resolved        'browser',
+377 silly install resolved        'browserify' ],
+377 silly install resolved     main: './inherits.js',
+377 silly install resolved     browser: './inherits_browser.js',
+377 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+377 silly install resolved     license: 'ISC',
+377 silly install resolved     scripts: { test: 'node test' },
+377 silly install resolved     readme: 'Browser-friendly inheritance fully compatible with standard node.js\n[inherits](http://nodejs.org/api/util.html#util_util_inherits_constructor_superconstructor).\n\nThis package exports standard `inherits` from node.js `util` module in\nnode environment, but also provides alternative browser-friendly\nimplementation through [browser\nfield](https://gist.github.com/shtylman/4339901). Alternative\nimplementation is a literal copy of standard one located in standalone\nmodule to avoid requiring of `util`. It also has a shim for old\nbrowsers with no `Object.create` support.\n\nWhile keeping you sure you are using standard `inherits`\nimplementation in node.js environment, it allows bundlers such as\n[browserify](https://github.com/substack/node-browserify) to not\ninclude full `util` package to your client code if all you need is\njust `inherits` function. It worth, because browser shim for `util`\npackage is large and `inherits` is often the single function you need\nfrom it.\n\nIt\'s recommended to use this package instead of\n`require(\'util\').inherits` for any code that has chances to be used\nnot only in node.js but in browser too.\n\n## usage\n\n```js\nvar inherits = require(\'inherits\');\n// then use exactly as the standard one\n```\n\n## note on version ~1.0\n\nVersion ~1.0 had completely different motivation and is not compatible\nneither with 2.0 nor with standard node.js `inherits`.\n\nIf you are using version ~1.0 and planning to switch to ~2.0, be\ncareful:\n\n* new version uses `super_` instead of `super` for referencing\n  superclass\n* new version overwrites current prototype while old one preserves any\n  existing fields on it\n',
+377 silly install resolved     readmeFilename: 'README.md',
+377 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+377 silly install resolved     _id: 'inherits@2.0.1',
+377 silly install resolved     dist:
+377 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+377 silly install resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+377 silly install resolved     _from: 'inherits@>=2.0.0 <3.0.0',
+377 silly install resolved     _npmVersion: '1.3.8',
+377 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+377 silly install resolved     maintainers: [ [Object] ],
+377 silly install resolved     directories: {},
+377 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+377 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+377 silly install resolved     homepage: 'https://github.com/isaacs/inherits' },
+377 silly install resolved   { author:
+377 silly install resolved      { name: 'Isaac Z. Schlueter',
+377 silly install resolved        email: 'i@izs.me',
+377 silly install resolved        url: 'http://blog.izs.me' },
+377 silly install resolved     name: 'minimatch',
+377 silly install resolved     description: 'a glob matcher in javascript',
+377 silly install resolved     version: '0.3.0',
+377 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/minimatch.git' },
+377 silly install resolved     main: 'minimatch.js',
+377 silly install resolved     scripts: { test: 'tap test/*.js' },
+377 silly install resolved     engines: { node: '*' },
+377 silly install resolved     dependencies: { 'lru-cache': '2', sigmund: '~1.0.0' },
+377 silly install resolved     devDependencies: { tap: '' },
+377 silly install resolved     license:
+377 silly install resolved      { type: 'MIT',
+377 silly install resolved        url: 'http://github.com/isaacs/minimatch/raw/master/LICENSE' },
+377 silly install resolved     bugs: { url: 'https://github.com/isaacs/minimatch/issues' },
+377 silly install resolved     homepage: 'https://github.com/isaacs/minimatch',
+377 silly install resolved     _id: 'minimatch@0.3.0',
+377 silly install resolved     _shasum: '275d8edaac4f1bb3326472089e7949c8394699dd',
+377 silly install resolved     _from: 'minimatch@>=0.3.0 <0.4.0',
+377 silly install resolved     _npmVersion: '1.4.10',
+377 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+377 silly install resolved     maintainers: [ [Object] ],
+377 silly install resolved     dist:
+377 silly install resolved      { shasum: '275d8edaac4f1bb3326472089e7949c8394699dd',
+377 silly install resolved        tarball: 'http://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz' },
+377 silly install resolved     directories: {},
+377 silly install resolved     _resolved: 'https://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz',
+377 silly install resolved     readme: 'ERROR: No README data found!' } ]
+378 info install inherits@2.0.1 into /Users/ryanbird/node_modules/jasmine/node_modules/glob
+379 info install minimatch@0.3.0 into /Users/ryanbird/node_modules/jasmine/node_modules/glob
+380 info installOne inherits@2.0.1
+381 verbose installOne of inherits to /Users/ryanbird/node_modules/jasmine/node_modules/glob not in flight; installing
+382 info installOne minimatch@0.3.0
+383 verbose installOne of minimatch to /Users/ryanbird/node_modules/jasmine/node_modules/glob not in flight; installing
+384 verbose lock using /Users/ryanbird/.npm/_locks/inherits-a66eb4c9698b6a02.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits
+385 silly install write writing inherits 2.0.1 to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits
+386 verbose lock using /Users/ryanbird/.npm/_locks/minimatch-fdb7abea97646786.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+387 silly install write writing minimatch 0.3.0 to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+388 verbose unbuild node_modules/jasmine/node_modules/glob/node_modules/inherits
+389 verbose unbuild node_modules/jasmine/node_modules/glob/node_modules/minimatch
+390 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits is being purged from base /Users/ryanbird
+391 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits
+392 verbose tar unpack /Users/ryanbird/.npm/inherits/2.0.1/package.tgz
+393 verbose tar unpacking to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits
+394 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits is being purged
+395 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits
+396 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch is being purged from base /Users/ryanbird
+397 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+398 silly gunzTarPerm modes [ '755', '644' ]
+399 verbose tar unpack /Users/ryanbird/.npm/minimatch/0.3.0/package.tgz
+400 verbose tar unpacking to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+401 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch is being purged
+402 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+403 silly gunzTarPerm modes [ '755', '644' ]
+404 silly gunzTarPerm extractEntry package.json
+405 silly gunzTarPerm extractEntry package.json
+406 silly gunzTarPerm extractEntry README.md
+407 silly gunzTarPerm extractEntry LICENSE
+408 silly gunzTarPerm extractEntry .npmignore
+409 silly gunzTarPerm extractEntry README.md
+410 silly gunzTarPerm extractEntry inherits.js
+411 silly gunzTarPerm extractEntry inherits_browser.js
+412 silly gunzTarPerm extractEntry LICENSE
+413 silly gunzTarPerm extractEntry minimatch.js
+414 silly gunzTarPerm extractEntry test/basic.js
+415 silly gunzTarPerm extractEntry test.js
+416 silly gunzTarPerm extractEntry test/brace-expand.js
+417 silly gunzTarPerm extractEntry test/caching.js
+418 silly gunzTarPerm extractEntry test/defaults.js
+419 silly gunzTarPerm extractEntry test/extglob-ending-with-state-char.js
+420 verbose write writing to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits/package.json
+421 info preinstall inherits@2.0.1
+422 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits/package.json
+423 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits/package.json
+424 silly install resolved []
+425 verbose about to build /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits
+426 info build /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits
+427 info linkStuff inherits@2.0.1
+428 silly linkStuff inherits@2.0.1 has /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules as its parent node_modules
+429 verbose linkBins inherits@2.0.1
+430 verbose linkMans inherits@2.0.1
+431 verbose rebuildBundles inherits@2.0.1
+432 info install inherits@2.0.1
+433 info postinstall inherits@2.0.1
+434 verbose unlock done using /Users/ryanbird/.npm/_locks/inherits-a66eb4c9698b6a02.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/inherits
+435 verbose write writing to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/package.json
+436 info preinstall minimatch@0.3.0
+437 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/package.json
+438 silly prepareForInstallMany adding lru-cache@2 from minimatch dependencies
+439 silly prepareForInstallMany adding sigmund@~1.0.0 from minimatch dependencies
+440 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/package.json
+441 silly cache add args [ 'lru-cache@2', null ]
+442 verbose cache add spec lru-cache@2
+443 silly cache add args [ 'sigmund@~1.0.0', null ]
+444 verbose cache add spec sigmund@~1.0.0
+445 silly cache add parsed spec { raw: 'lru-cache@2',
+445 silly cache add   scope: null,
+445 silly cache add   name: 'lru-cache',
+445 silly cache add   rawSpec: '2',
+445 silly cache add   spec: '>=2.0.0 <3.0.0',
+445 silly cache add   type: 'range' }
+446 silly addNamed lru-cache@>=2.0.0 <3.0.0
+447 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for lru-cache
+448 silly addNameRange { name: 'lru-cache', range: '>=2.0.0 <3.0.0', hasData: false }
+449 silly mapToRegistry name lru-cache
+450 silly mapToRegistry using default registry
+451 silly mapToRegistry registry https://registry.npmjs.org/
+452 silly mapToRegistry uri https://registry.npmjs.org/lru-cache
+453 verbose addNameRange registry:https://registry.npmjs.org/lru-cache not in flight; fetching
+454 silly cache add parsed spec { raw: 'sigmund@~1.0.0',
+454 silly cache add   scope: null,
+454 silly cache add   name: 'sigmund',
+454 silly cache add   rawSpec: '~1.0.0',
+454 silly cache add   spec: '>=1.0.0 <1.1.0',
+454 silly cache add   type: 'range' }
+455 silly addNamed sigmund@>=1.0.0 <1.1.0
+456 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for sigmund
+457 silly addNameRange { name: 'sigmund', range: '>=1.0.0 <1.1.0', hasData: false }
+458 silly mapToRegistry name sigmund
+459 silly mapToRegistry using default registry
+460 silly mapToRegistry registry https://registry.npmjs.org/
+461 silly mapToRegistry uri https://registry.npmjs.org/sigmund
+462 verbose addNameRange registry:https://registry.npmjs.org/sigmund not in flight; fetching
+463 verbose request uri https://registry.npmjs.org/sigmund
+464 verbose request no auth needed
+465 info attempt registry request try #1 at 09:42:15
+466 verbose etag "1TUX00X8YEKNFED6GGWS214S3"
+467 http request GET https://registry.npmjs.org/sigmund
+468 verbose request uri https://registry.npmjs.org/lru-cache
+469 verbose request no auth needed
+470 info attempt registry request try #1 at 09:42:15
+471 verbose etag "W349M57F2RIAL9JOA71GS6A8"
+472 http request GET https://registry.npmjs.org/lru-cache
+473 http 304 https://registry.npmjs.org/sigmund
+474 silly get cb [ 304,
+474 silly get   { date: 'Wed, 21 Oct 2015 15:42:16 GMT',
+474 silly get     via: '1.1 varnish',
+474 silly get     'cache-control': 'max-age=60',
+474 silly get     etag: '"1TUX00X8YEKNFED6GGWS214S3"',
+474 silly get     age: '45',
+474 silly get     connection: 'keep-alive',
+474 silly get     'x-served-by': 'cache-ord1722-ORD',
+474 silly get     'x-cache': 'HIT',
+474 silly get     'x-cache-hits': '3',
+474 silly get     'x-timer': 'S1445442136.300959,VS0,VE0',
+474 silly get     vary: 'Accept' } ]
+475 verbose etag https://registry.npmjs.org/sigmund from cache
+476 verbose get saving sigmund to /Users/ryanbird/.npm/registry.npmjs.org/sigmund/.cache.json
+477 silly addNameRange number 2 { name: 'sigmund', range: '>=1.0.0 <1.1.0', hasData: true }
+478 silly addNameRange versions [ 'sigmund', [ '1.0.0', '1.0.1' ] ]
+479 silly addNamed sigmund@1.0.1
+480 verbose addNamed "1.0.1" is a plain semver version for sigmund
+481 silly cache afterAdd sigmund@1.0.1
+482 verbose afterAdd /Users/ryanbird/.npm/sigmund/1.0.1/package/package.json not in flight; writing
+483 verbose afterAdd /Users/ryanbird/.npm/sigmund/1.0.1/package/package.json written
+484 http 200 https://registry.npmjs.org/lru-cache
+485 silly get cb [ 200,
+485 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+485 silly get     etag: '"6JPZH74ULL07T05DU5H3VDPQ8"',
+485 silly get     'content-type': 'application/json',
+485 silly get     'cache-control': 'max-age=60',
+485 silly get     'content-length': '37042',
+485 silly get     'accept-ranges': 'bytes',
+485 silly get     date: 'Wed, 21 Oct 2015 15:42:16 GMT',
+485 silly get     via: '1.1 varnish',
+485 silly get     age: '22',
+485 silly get     connection: 'keep-alive',
+485 silly get     'x-served-by': 'cache-ord1723-ORD',
+485 silly get     'x-cache': 'HIT',
+485 silly get     'x-cache-hits': '1',
+485 silly get     'x-timer': 'S1445442136.301504,VS0,VE0',
+485 silly get     vary: 'Accept' } ]
+486 verbose get saving lru-cache to /Users/ryanbird/.npm/registry.npmjs.org/lru-cache/.cache.json
+487 silly addNameRange number 2 { name: 'lru-cache', range: '>=2.0.0 <3.0.0', hasData: true }
+488 silly addNameRange versions [ 'lru-cache',
+488 silly addNameRange   [ '1.0.1',
+488 silly addNameRange     '1.0.2',
+488 silly addNameRange     '1.0.3',
+488 silly addNameRange     '1.0.4',
+488 silly addNameRange     '1.0.5',
+488 silly addNameRange     '1.0.6',
+488 silly addNameRange     '1.1.0',
+488 silly addNameRange     '1.1.1',
+488 silly addNameRange     '2.0.0',
+488 silly addNameRange     '2.0.1',
+488 silly addNameRange     '2.0.2',
+488 silly addNameRange     '2.0.3',
+488 silly addNameRange     '2.0.4',
+488 silly addNameRange     '2.1.0',
+488 silly addNameRange     '2.2.0',
+488 silly addNameRange     '2.2.1',
+488 silly addNameRange     '2.2.2',
+488 silly addNameRange     '2.2.4',
+488 silly addNameRange     '2.3.0',
+488 silly addNameRange     '2.3.1',
+488 silly addNameRange     '2.5.0',
+488 silly addNameRange     '2.5.1',
+488 silly addNameRange     '2.5.2',
+488 silly addNameRange     '2.6.0',
+488 silly addNameRange     '2.6.1',
+488 silly addNameRange     '2.6.2',
+488 silly addNameRange     '2.6.3',
+488 silly addNameRange     '2.6.4',
+488 silly addNameRange     '2.6.5',
+488 silly addNameRange     '2.7.0' ] ]
+489 silly addNamed lru-cache@2.7.0
+490 verbose addNamed "2.7.0" is a plain semver version for lru-cache
+491 silly cache afterAdd lru-cache@2.7.0
+492 verbose afterAdd /Users/ryanbird/.npm/lru-cache/2.7.0/package/package.json not in flight; writing
+493 verbose afterAdd /Users/ryanbird/.npm/lru-cache/2.7.0/package/package.json written
+494 silly install resolved [ { name: 'sigmund',
+494 silly install resolved     version: '1.0.1',
+494 silly install resolved     description: 'Quick and dirty signatures for Objects.',
+494 silly install resolved     main: 'sigmund.js',
+494 silly install resolved     directories: { test: 'test' },
+494 silly install resolved     dependencies: {},
+494 silly install resolved     devDependencies: { tap: '~0.3.0' },
+494 silly install resolved     scripts: { test: 'tap test/*.js', bench: 'node bench.js' },
+494 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/sigmund.git' },
+494 silly install resolved     keywords: [ 'object', 'signature', 'key', 'data', 'psychoanalysis' ],
+494 silly install resolved     author:
+494 silly install resolved      { name: 'Isaac Z. Schlueter',
+494 silly install resolved        email: 'i@izs.me',
+494 silly install resolved        url: 'http://blog.izs.me/' },
+494 silly install resolved     license: 'ISC',
+494 silly install resolved     gitHead: '527f97aa5bb253d927348698c0cd3bb267d098c6',
+494 silly install resolved     bugs: { url: 'https://github.com/isaacs/sigmund/issues' },
+494 silly install resolved     homepage: 'https://github.com/isaacs/sigmund#readme',
+494 silly install resolved     _id: 'sigmund@1.0.1',
+494 silly install resolved     _shasum: '3ff21f198cad2175f9f3b781853fd94d0d19b590',
+494 silly install resolved     _from: 'sigmund@>=1.0.0 <1.1.0',
+494 silly install resolved     _npmVersion: '2.10.0',
+494 silly install resolved     _nodeVersion: '2.0.1',
+494 silly install resolved     _npmUser: { name: 'isaacs', email: 'isaacs@npmjs.com' },
+494 silly install resolved     dist:
+494 silly install resolved      { shasum: '3ff21f198cad2175f9f3b781853fd94d0d19b590',
+494 silly install resolved        tarball: 'http://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz' },
+494 silly install resolved     maintainers: [ [Object] ],
+494 silly install resolved     _resolved: 'https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz',
+494 silly install resolved     readme: 'ERROR: No README data found!' },
+494 silly install resolved   { name: 'lru-cache',
+494 silly install resolved     description: 'A cache object that deletes the least-recently-used items.',
+494 silly install resolved     version: '2.7.0',
+494 silly install resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+494 silly install resolved     keywords: [ 'mru', 'lru', 'cache' ],
+494 silly install resolved     scripts: { test: 'tap test --gc' },
+494 silly install resolved     main: 'lib/lru-cache.js',
+494 silly install resolved     repository:
+494 silly install resolved      { type: 'git',
+494 silly install resolved        url: 'git://github.com/isaacs/node-lru-cache.git' },
+494 silly install resolved     devDependencies: { tap: '^1.2.0', weak: '' },
+494 silly install resolved     license: 'ISC',
+494 silly install resolved     gitHead: 'fc6ee93093f4e463e5946736d4c48adc013724d1',
+494 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-lru-cache/issues' },
+494 silly install resolved     homepage: 'https://github.com/isaacs/node-lru-cache#readme',
+494 silly install resolved     _id: 'lru-cache@2.7.0',
+494 silly install resolved     _shasum: 'aaa376a4cd970f9cebf5ec1909566ec034f07ee6',
+494 silly install resolved     _from: 'lru-cache@>=2.0.0 <3.0.0',
+494 silly install resolved     _npmVersion: '3.3.2',
+494 silly install resolved     _nodeVersion: '4.0.0',
+494 silly install resolved     _npmUser: { name: 'isaacs', email: 'isaacs@npmjs.com' },
+494 silly install resolved     dist:
+494 silly install resolved      { shasum: 'aaa376a4cd970f9cebf5ec1909566ec034f07ee6',
+494 silly install resolved        tarball: 'http://registry.npmjs.org/lru-cache/-/lru-cache-2.7.0.tgz' },
+494 silly install resolved     maintainers: [ [Object], [Object] ],
+494 silly install resolved     directories: {},
+494 silly install resolved     _resolved: 'https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.0.tgz',
+494 silly install resolved     readme: 'ERROR: No README data found!' } ]
+495 info install sigmund@1.0.1 into /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+496 info install lru-cache@2.7.0 into /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+497 info installOne sigmund@1.0.1
+498 verbose installOne of sigmund to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch not in flight; installing
+499 info installOne lru-cache@2.7.0
+500 verbose installOne of lru-cache to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch not in flight; installing
+501 verbose lock using /Users/ryanbird/.npm/_locks/sigmund-a790929022ec5fb9.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+502 silly install write writing sigmund 1.0.1 to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+503 verbose lock using /Users/ryanbird/.npm/_locks/lru-cache-99313da9c45cd59b.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+504 silly install write writing lru-cache 2.7.0 to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+505 verbose unbuild node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+506 verbose unbuild node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+507 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund is being purged from base /Users/ryanbird
+508 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+509 verbose tar unpack /Users/ryanbird/.npm/sigmund/1.0.1/package.tgz
+510 verbose tar unpacking to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+511 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund is being purged
+512 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+513 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache is being purged from base /Users/ryanbird
+514 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+515 silly gunzTarPerm modes [ '755', '644' ]
+516 verbose tar unpack /Users/ryanbird/.npm/lru-cache/2.7.0/package.tgz
+517 verbose tar unpacking to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+518 silly gentlyRm /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache is being purged
+519 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+520 silly gunzTarPerm modes [ '755', '644' ]
+521 silly gunzTarPerm extractEntry package.json
+522 silly gunzTarPerm extractEntry package.json
+523 silly gunzTarPerm extractEntry README.md
+524 silly gunzTarPerm extractEntry LICENSE
+525 silly gunzTarPerm extractEntry .npmignore
+526 silly gunzTarPerm extractEntry README.md
+527 silly gunzTarPerm extractEntry LICENSE
+528 silly gunzTarPerm extractEntry .travis.yml
+529 silly gunzTarPerm extractEntry bench.js
+530 silly gunzTarPerm extractEntry sigmund.js
+531 silly gunzTarPerm extractEntry CONTRIBUTORS
+532 silly gunzTarPerm extractEntry lib/lru-cache.js
+533 silly gunzTarPerm extractEntry test/basic.js
+534 silly gunzTarPerm extractEntry test/basic.js
+535 silly gunzTarPerm extractEntry test/foreach.js
+536 silly gunzTarPerm extractEntry test/memory-leak.js
+537 silly gunzTarPerm extractEntry test/serialize.js
+538 verbose write writing to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+539 info preinstall sigmund@1.0.1
+540 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+541 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+542 silly install resolved []
+543 verbose about to build /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+544 info build /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+545 info linkStuff sigmund@1.0.1
+546 silly linkStuff sigmund@1.0.1 has /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules as its parent node_modules
+547 verbose linkBins sigmund@1.0.1
+548 verbose linkMans sigmund@1.0.1
+549 verbose rebuildBundles sigmund@1.0.1
+550 info install sigmund@1.0.1
+551 info postinstall sigmund@1.0.1
+552 verbose unlock done using /Users/ryanbird/.npm/_locks/sigmund-a790929022ec5fb9.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+553 verbose write writing to /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+554 info preinstall lru-cache@2.7.0
+555 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+556 verbose readDependencies loading dependencies from /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+557 silly install resolved []
+558 verbose about to build /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+559 info build /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+560 info linkStuff lru-cache@2.7.0
+561 silly linkStuff lru-cache@2.7.0 has /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules as its parent node_modules
+562 verbose linkBins lru-cache@2.7.0
+563 verbose linkMans lru-cache@2.7.0
+564 verbose rebuildBundles lru-cache@2.7.0
+565 info install lru-cache@2.7.0
+566 info postinstall lru-cache@2.7.0
+567 verbose unlock done using /Users/ryanbird/.npm/_locks/lru-cache-99313da9c45cd59b.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+568 verbose about to build /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+569 info build /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+570 info linkStuff minimatch@0.3.0
+571 silly linkStuff minimatch@0.3.0 has /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules as its parent node_modules
+572 verbose linkBins minimatch@0.3.0
+573 verbose linkMans minimatch@0.3.0
+574 verbose rebuildBundles minimatch@0.3.0
+575 verbose rebuildBundles [ 'lru-cache', 'sigmund' ]
+576 info install minimatch@0.3.0
+577 info postinstall minimatch@0.3.0
+578 verbose unlock done using /Users/ryanbird/.npm/_locks/minimatch-fdb7abea97646786.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob/node_modules/minimatch
+579 verbose about to build /Users/ryanbird/node_modules/jasmine/node_modules/glob
+580 info build /Users/ryanbird/node_modules/jasmine/node_modules/glob
+581 info linkStuff glob@3.2.11
+582 silly linkStuff glob@3.2.11 has /Users/ryanbird/node_modules/jasmine/node_modules as its parent node_modules
+583 verbose linkBins glob@3.2.11
+584 verbose linkMans glob@3.2.11
+585 verbose rebuildBundles glob@3.2.11
+586 verbose rebuildBundles [ 'inherits', 'minimatch' ]
+587 info install glob@3.2.11
+588 info postinstall glob@3.2.11
+589 verbose unlock done using /Users/ryanbird/.npm/_locks/glob-65f93073f20d1e96.lock for /Users/ryanbird/node_modules/jasmine/node_modules/glob
+590 verbose about to build /Users/ryanbird/node_modules/jasmine
+591 info build /Users/ryanbird/node_modules/jasmine
+592 info linkStuff jasmine@2.3.2
+593 silly linkStuff jasmine@2.3.2 has /Users/ryanbird/node_modules as its parent node_modules
+594 verbose linkBins jasmine@2.3.2
+595 verbose link bins [ { jasmine: './bin/jasmine.js' },
+595 verbose link bins   '/Users/ryanbird/node_modules/.bin',
+595 verbose link bins   false ]
+596 verbose linkMans jasmine@2.3.2
+597 verbose rebuildBundles jasmine@2.3.2
+598 verbose rebuildBundles [ 'exit', 'glob', 'jasmine-core' ]
+599 silly gentlyRm /Users/ryanbird/node_modules/.bin/jasmine is being purged
+600 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/.bin/jasmine
+601 verbose unlock done using /Users/ryanbird/.npm/_locks/jasmine-78d1dbd71d042f7b.lock for /Users/ryanbird/node_modules/jasmine
+602 verbose stack Error: EACCES, symlink '../jasmine/bin/jasmine.js'
+602 verbose stack     at Error (native)
+603 verbose cwd /Users/ryanbird/workspace/class_ex/week14
+604 error Darwin 14.5.0
+605 error argv "node" "/usr/local/bin/npm" "install" "jasmine"
+606 error node v0.12.7
+607 error npm  v2.12.1
+608 error path ../jasmine/bin/jasmine.js
+609 error code EACCES
+610 error errno -13
+611 error Error: EACCES, symlink '../jasmine/bin/jasmine.js'
+611 error     at Error (native)
+611 error  { [Error: EACCES, symlink '../jasmine/bin/jasmine.js'] errno: -13, code: 'EACCES', path: '../jasmine/bin/jasmine.js' }
+612 error Please try running this command again as root/Administrator.
+613 verbose exit [ -13, true ]
+614 verbose unbuild node_modules/jasmine
+615 info preuninstall jasmine@2.3.2
+616 info uninstall jasmine@2.3.2
+617 verbose unbuild rmStuff jasmine@2.3.2 from /Users/ryanbird/node_modules
+618 silly gentlyRm /Users/ryanbird/node_modules/.bin/jasmine is being gently removed
+619 silly gentlyRm verifying /Users/ryanbird is an npm working directory
+620 silly gentlyRm containing path /Users/ryanbird is under npm's control, in /Users/ryanbird
+621 silly gentlyRm deletion target /Users/ryanbird/node_modules/.bin/jasmine is under /Users/ryanbird
+622 verbose gentlyRm vacuuming from /Users/ryanbird/node_modules/.bin/jasmine up to /Users/ryanbird
+623 info postuninstall jasmine@2.3.2
+624 silly gentlyRm /Users/ryanbird/node_modules/jasmine is being purged from base /Users/ryanbird
+625 verbose gentlyRm don't care about contents; nuking /Users/ryanbird/node_modules/jasmine
+626 silly vacuum-fs purging /Users/ryanbird/node_modules/jasmine
+627 silly vacuum-fs quitting because other entries in /Users/ryanbird/node_modules
